@@ -332,7 +332,7 @@ img {
   position: relative;
   overflow: hidden;
 }
-.overlay {
+.portfolio-item-pic .overlay {
   position: absolute;
   top: 0;
   left: 0;
