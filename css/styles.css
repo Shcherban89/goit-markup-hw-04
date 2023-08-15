@@ -59,8 +59,7 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-link:hover::after,
-.nav-link:focus::after {
+.nav-link:hover::after {
   color: var(--ocean, #404bbf);
   content: "";
   width: 67px;
@@ -70,7 +69,6 @@ img {
   position: absolute;
   bottom: -1px;
   left: 0;
-  display: block;
 }
 .address-container {
   font-style: normal;
@@ -160,7 +158,7 @@ img {
 }
 .social-media-link:hover,
 .social-media-link:focus {
-  background-color: #404bbf;
+  background-color: #31d0aa;
 }
 
 .icon-social {
