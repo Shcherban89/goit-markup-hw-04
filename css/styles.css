@@ -130,12 +130,15 @@ img {
 .advantages-item .icon {
   fill: #2e2f42;
 }
-.icon {
-  box-sizing: content-box;
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
+.icon-box {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
   background-color: #f4f4fd;
-  padding: 24px 100px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  border: 1px solid #8e8f99;
 }
 .social-media-list {
   display: flex;
@@ -300,6 +303,10 @@ img {
   display: inline-block;
   margin-bottom: 16px;
 }
+.adves-logo-text {
+  margin-right: 120px 
+}
+
 .portfolio-item-pic {
   position: relative;
   overflow: hidden;
@@ -334,7 +341,6 @@ img {
 .adves-container .container {
   align-items: baseline;
   display: flex;
-  margin-right: 120px;
 }
 .social-media-footer .social-media-list {
   gap: 16px;
